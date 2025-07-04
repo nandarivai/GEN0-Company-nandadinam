@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GEN.O - Your Tutor</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" href="img/your tutor logo1.jpg"
+          type="image/x-icon">
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">FAQs</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Help</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Your</span>Tutor</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="product.html" class="nav-item nav-link">Tutors</a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Your</span>Tutor</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="service.html" class="nav-item nav-link">Subjects</a>
+                        <!--<a href="gallery.html" class="nav-item nav-link">Gallery</a>-->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/bio.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Smart And Creative</h4>
+                            <h1 class="display-3 text-white mb-md-4">Up to date tutors Since 2023</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/math.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Smart And Creative</h4>
+                            <h1 class="display-3 text-white mb-md-4">Choosen Tutors</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n1"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n1"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5">Teacher with up to date method since 2024</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">About Us</h4>
+                    <h5 class="text-muted mb-3">Make Yourself Confident With Knowledge</h5>
+                    <p>At Your Tutor, we invite you to have a better understanding on the subject that you are afraid with, we are ready to teach you privately whenever and wherever you want. We also provide the tutor who passed the test so that you can be comfortable with the tutor you choose with.</p>
+                    <a href="" class="btn btn-secondary mt-2">Learn More</a>
+                </div>
+                <div class="col-lg-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/book1.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Our Features</h4>
+                    <p>At Your Tutor, we take pride in presenting a range of features designed to make you more comfort with studying and get rid of the laziness also we will provide your studying with some games and features so you do not feels bored.</p>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Exceptional Knowledge</h5>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>High Quality Materials</h5>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Creative Tutor</h5>
+                    <a href="" class="btn btn-primary mt-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Subjects We Provide For Our Clients</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel service-carousel">
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/mtk.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Math</h5>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/kimia.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chemistry</h5>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/fska.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Physics </h5>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/biologi.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Biology</h5>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <!--<div class="container-fluid my-5 py-5 px-0">
+        <div class="row justify-content-center m-0">
+            <div class="col-lg-5">
+                <h1 class="section-title position-relative text-center mb-5">Delicious Cakes Made From High Quality Ingredients</h1>
+            </div>
+        </div>
+        <div class="row m-0 portfolio-container">
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/11.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/11.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/12.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/12.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/13.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/13.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/14.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/14.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/15.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/15.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/cookies/16.jpg" alt="">
+                    <a class="portfolio-btn" href="img/cookies/16.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Portfolio End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Best Prices We Offer For Student Achievement</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel product-carousel">
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                <h4 class="font-weight-bold text-white mb-0">55K</h4>
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">A</h5>
+                            <a href="" class="btn btn-sm btn-secondary">Book Now</a>
+                        </div>
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                <h4 class="font-weight-bold text-white mb-0">45K</h4>
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">B</h5>
+                            <a href="" class="btn btn-sm btn-secondary">Book Now</a>
+                        </div>
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                <h4 class="font-weight-bold text-white mb-0">35K</h4>
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">C</h5>
+                            <a href="" class="btn btn-sm btn-secondary">Book Now</a>
+                        </div>
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                <h4 class="font-weight-bold text-white mb-0">75K</h4>
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">D</h5>
+                            <a href="" class="btn btn-sm btn-secondary">Book Now</a>
+                        </div>
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                <h4 class="font-weight-bold text-white mb-0">90K</h4>
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">E</h5>
+                            <a href="" class="btn btn-sm btn-secondary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Your</span>Tutor</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a target="_blank" class="btn btn-outline-secondary btn-social mr-2" href="https://wa.me/62895336371832?&text=Hello%20Saya%20Inggin%20Memesan%20Cookies"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="https://www.instagram.com/putridinam_/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Get In Touch</h5>
+                            <p class="mb-2">Jl. Ki Hajar Dewantara, Bekasi Regency</p>
+                            <p class="mb-0">+62 895-3363-71832</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Opening Hours</h5>
+                            <p class="mb-2">Mon – Sat, 8AM – 10PM</p>
+                            <p class="mb-0">Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy; 2024 All Rights Reserved.<a href="#"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
