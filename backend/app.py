@@ -1,7 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 from backend.config.firebaseAuth import auth
+import os
 
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    static_folder='../../frontend/assets',     # CSS, JS, IMG
+    template_folder='../../frontend/views'     # HTML (register.html)
+)
+
 app.secret_key = 'projectDPSnandadinam'
 
 @app.route('/')
@@ -19,12 +25,12 @@ def register():
             return redirect(url_for('register'))
 
         if len(password) < 8:
-            flash("Password minimum 8 caracther", "danger")
+            flash("Password minimum 8 characters", "danger")
             return redirect(url_for('register'))
 
         try:
             auth.create_user_with_email_and_password(email, password)
-            flash("Registration successfull, please login.", "success")
+            flash("Registration successful, please login.", "success")
             return redirect(url_for('login'))
         except Exception as e:
             error_message = str(e)
