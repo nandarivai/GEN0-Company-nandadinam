@@ -33,7 +33,9 @@ def register():
             flash("Registration successful, please login.", "success")
             return redirect(url_for('login'))
         except Exception as e:
+            print("Firebase Error:", e)
             error_message = str(e)
+
             if "EMAIL_EXISTS" in error_message:
                 flash("Email already used!", "danger")
             else:
