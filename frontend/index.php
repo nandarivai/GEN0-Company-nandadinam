@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -92,7 +92,7 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/bio.jpg" alt="Image">
+                    <img class="w-100" src="/img/bio.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Smart And Creative</h4>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/math.jpg" alt="Image">
+                    <img class="w-100" src="/img/math.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Smart And Creative</h4>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-lg-4" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/book1.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="/img/book1.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4 py-5">
@@ -175,7 +175,7 @@
                     <div class="owl-carousel service-carousel">
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/mtk.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="/img/mtk.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Math</h5>
@@ -184,7 +184,7 @@
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/kimia.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="/img/kimia.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Chemistry</h5>
@@ -193,7 +193,7 @@
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/fska.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="/img/fska.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Physics </h5>
@@ -202,7 +202,7 @@
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/biologi.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="/img/biologi.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Biology</h5>
@@ -227,7 +227,7 @@
         <div class="row m-0 portfolio-container">
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/11.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/11.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/11.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -235,7 +235,7 @@
             </div>
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/12.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/12.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/12.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -243,7 +243,7 @@
             </div>
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/13.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/13.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/13.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -251,7 +251,7 @@
             </div>
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/14.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/14.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/14.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -259,7 +259,7 @@
             </div>
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/15.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/15.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/15.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -267,7 +267,7 @@
             </div>
             <div class="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/cookies/16.jpg" alt="">
+                    <img class="img-fluid w-100" src="/frontend/assets/img/cookies/16.jpg" alt="">
                     <a class="portfolio-btn" href="img/cookies/16.jpg" data-lightbox="portfolio">
                         <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                     </a>
@@ -295,8 +295,7 @@
                                 <h4 class="font-weight-bold text-white mb-0">55K</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
-                            </div>
+                                <img class="rounded-circle w-100 h-100" src="/frontend/assets
                             <h5 class="font-weight-bold mb-4">A</h5>
                             <a href="" class="btn btn-sm btn-secondary">Book Now</a>
                         </div>
@@ -305,7 +304,7 @@
                                 <h4 class="font-weight-bold text-white mb-0">45K</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="/img/noprofile.jpg" style="object-fit: cover;">
                             </div>
                             <h5 class="font-weight-bold mb-4">B</h5>
                             <a href="" class="btn btn-sm btn-secondary">Book Now</a>
@@ -315,7 +314,7 @@
                                 <h4 class="font-weight-bold text-white mb-0">35K</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="/img/noprofile.jpg" style="object-fit: cover;">
                             </div>
                             <h5 class="font-weight-bold mb-4">C</h5>
                             <a href="" class="btn btn-sm btn-secondary">Book Now</a>
@@ -325,7 +324,7 @@
                                 <h4 class="font-weight-bold text-white mb-0">75K</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="/img/noprofile.jpg" style="object-fit: cover;">
                             </div>
                             <h5 class="font-weight-bold mb-4">D</h5>
                             <a href="" class="btn btn-sm btn-secondary">Book Now</a>
@@ -335,7 +334,7 @@
                                 <h4 class="font-weight-bold text-white mb-0">90K</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/noprofile.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="/img/noprofile.jpg" style="object-fit: cover;">
                             </div>
                             <h5 class="font-weight-bold mb-4">E</h5>
                             <a href="" class="btn btn-sm btn-secondary">Book Now</a>
@@ -391,18 +390,18 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="/lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
