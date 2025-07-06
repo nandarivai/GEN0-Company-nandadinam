@@ -5,20 +5,20 @@
     <title>GEN.0 - Your Tutor</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="icon" href="/frontend/assets/img/your tutor logo1.jpg"
+    <link rel="icon" href="../assets/img/your tutor logo1.jpg"
           type="image/x-icon">
 
-    <link href="/frontend/assets/img/favicon.ico" rel="icon">
+    <link href="../assets/img/favicon.ico" rel="icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    <link href="/frontend/assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -69,18 +69,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="product.html" class="nav-item nav-link">Tutors</a>
+                    <a href="{{ url_for('home') }}" class="nav-item nav-link">Home</a>
+                    <a href="{{ url_for('about') }}" class="nav-item nav-link active">About</a>
+                    <a href="{{ url_for('tutors') }}" class="nav-item nav-link">Tutors</a>
                     </div>
-                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Your</span>Tutor</h1>
+                    <a href="{{ url_for('home') }}" class="navbar-brand mx-5 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Your</span>Tutor</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="service.html" class="nav-item nav-link">Subjects</a>
-                        <!--<a href="gallery.html" class="nav-item nav-link">Gallery</a>-->
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    <a href="{{ url_for('subjects') }}" class="nav-item nav-link">Subjects</a>
+                    <a href="{{ url_for('contact') }}" class="nav-item nav-link">Contact</a>
+                    <a href="{{ url_for('login') }}" class="nav-item nav-link">Logout</a>
                     </div>
                 </div>
             </nav>
@@ -115,7 +114,7 @@
                 </div>
                 <div class="col-lg-4" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="/frontend/assets/img/book1.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="../assets/img/book1.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4 py-5">
@@ -172,16 +171,16 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="/lib/easing/easing.min.js"></script>
-    <script src="/lib/waypoints/waypoints.min.js"></script>
-    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
-    <script src="/mail/jqBootstrapValidation.min.js"></script>
-    <script src="/mail/contact.js"></script>
+    <script src="../mail/jqBootstrapValidation.min.js"></script>
+    <script src="../mail/contact.js"></script>
 
-    <script src="/frontend/assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
