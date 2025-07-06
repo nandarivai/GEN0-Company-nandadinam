@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: gen0-backend
+    ports:
+      - "5000:5000"
+    # ⚠️ HAPUS VOLUME INI, karena timpa isi app di dalam container
+    environment:
+      - FLASK_ENV=development
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: gen0-frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    restart: unless-stopped
